@@ -1,0 +1,39 @@
+@charset="UTF-8";
+        
+body{
+    background-color: #FFF;
+    color: rgb(0,0,0)
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+figure.foto-com-legenda{
+    position: relative;
+    border: 8px solid #FFF;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-com-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-com-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+figure.foto-com-legenda:hover figcaption{
+    opacity: 1;
+    
+}
