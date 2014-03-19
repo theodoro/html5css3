@@ -1,4 +1,4 @@
-@charset="UTF-8";
+@charset ="UTF-8";
         
 body{
     background-color: #FFF;
@@ -36,4 +36,25 @@ figure.foto-com-legenda figcaption{
 figure.foto-com-legenda:hover figcaption{
     opacity: 1;
     
+}
+
+nav#menu {
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+nav#menu li{
+   display: inline-block;
+   background-color: #dddddd;
+   padding: 10px;
+}
+
+nav#menu h1{
+    display: none;
 }
