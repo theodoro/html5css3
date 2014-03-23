@@ -127,6 +127,21 @@ section#corpo{
     
 }
 
+table#tabela-esp{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabela-esp td {
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 aside#lateral{
     display: block;
     width: 370px;
