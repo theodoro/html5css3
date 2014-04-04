@@ -7,6 +7,7 @@
 
         
 body{
+    font-family: Arial, sans-serif;
     background-color: #DDD;
     color: rgb(0,0,0)
 }
@@ -21,6 +22,15 @@ div#interface {
 p{
     text-align: justify;
     text-indent: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #606060;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header#cabecalho img#icone {
@@ -127,6 +137,39 @@ section#corpo{
     
 }
 
+article#noticia h2{
+    
+    font-size: 13pt;
+    color: #606060;
+    background-color: #DDDDDD;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px
+}
+
+header#cabecalho-artigo h2{
+    
+    font-size: 13pt;
+    color: #CECECE;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+    
+}
+
+.direita{
+    text-align: right;
+}
+
 table#tabela-esp{
     border: 1px solid #606060;
     border-spacing: 0px;
@@ -174,6 +217,23 @@ aside#lateral{
     width: 370px;
     float: right;
     padding-right: 10px;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+aside#lateral h1{
+    font-family: FonteLogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #FFFFFF;
+    padding: 5px;
 }
 
 footer#rodape{
